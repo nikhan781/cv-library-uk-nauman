@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_Suite">
+              <span class="suite-name border-passed">Default Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_Suite">
+                    <span>C:\Users\nik_7\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...)">verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...)">verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...)">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...)">verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...)">verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...)">verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)">verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uk.co.library.testsuite.JobSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking Team Leader jobs in Glasgow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow on the Hill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Developer jobs in London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil Engineer jobs in Manchester)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in Portsmouth)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nik_7\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;cv-library-uk-nauman&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uk.co.library.testsuite.JobSearchTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyJobSearchResultUsingDifferentDataSet&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- uk.co.library.testsuite.JobSearchTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- cv-library-uk-nauman --&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">cv-library-uk-nauman (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(0, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(0, 3, 7280);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(1, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(1, 3, 7158);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(2, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(2, 3, 6854);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(3, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(3, 3, 6702);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(4, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(4, 3, 6409);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(5, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(5, 3, 5374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(6, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(6, 3, 4967);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Banking Team Leaderin Job Title field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Glasgowin Location field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 2 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 20000in Salary Min field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 40000in Salary Max field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per annumin Salary Type field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Permanentin Job Type field[[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (114b3dcafaefe6e2ea2ba2b2c4b13b8e)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_14_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_14_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_14_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Accountantin Job Title field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Londonin Location field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 15 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 2000in Salary Min field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 4000in Salary Max field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per monthin Salary Type field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Contractin Job Type field[[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (bfc0484c13098b1d0f6e7b2c047e0f90)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_26_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_26_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_26_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Testerin Job Title field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Harrowin Location field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 5 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 30000in Salary Min field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 500000in Salary Max field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per annumin Salary Type field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Permanentin Job Type field[[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (d58a8dadf61ca3f304d850ad552db78a)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_15_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_15_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_15_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Software Developerin Job Title field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Londonin Location field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 100 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 1000in Salary Min field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 3000in Salary Max field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per weekin Salary Type field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Part Timein Job Type field[[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (f2dd949578f3ee206ea8fd83b5095fc0)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_45_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_45_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_45_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Civil Engineerin Job Title field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Manchesterin Location field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 50 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 15in Salary Min field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 30in Salary Max field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per hourin Salary Type field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Apprenticeshipin Job Type field[[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (2fca68e5a2787fb26020ac3033422908)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_53_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_53_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_53_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Area Managerin Job Title field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Portsmouthin Location field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 10 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 50in Salary Min field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 300in Salary Max field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per dayin Salary Type field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Contractin Job Type field[[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (a79e5298114e866b92ef644952fd9c50)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_03_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_03_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_04_03_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Accept All Button [[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: (//span[@class='mat-button-wrapper'])[3]]</span>
+                <span class="reporter-method-output">Enter job title Chefin Job Title field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: //input[@id='keywords']]</span>
+                <span class="reporter-method-output">Enter Location Birminghamin Location field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: //input[@id='location']]</span>
+                <span class="reporter-method-output">Select Distance up to 25 milesin Salary Type field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on More Search Option Link [[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: //button[@id='toggle-hp-search']]</span>
+                <span class="reporter-method-output">Enter minimum salary 100in Salary Min field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary 400in Salary Max field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type Per monthin Salary Type field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Select job Type Temporaryin Job Type field[[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Click on Find Job Button [[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: //input[@id='hp-search-btn']]</span>
+                <span class="reporter-method-output">Verify Result [[ChromeDriver: chrome on WINDOWS (7c58ee1604dc18547ae42543f3a8f683)] -> xpath: //h1[@class='search-header__title']]</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_36_GMT_2022.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_36_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\cv-library-uk-nauman/test-output/html/verifyJobSearchResultUsingDifferentDataSetFri_Dec_16_15_03_36_GMT_2022.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">uk.co.library.testsuite.JobSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">3171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 500000, Per annum, Permanent, Permanent Tester jobs in Harrow ...)</span>
+                <span class="method-start">3186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">11802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Accountant, London, up to 15 miles, 2000, 4000, Per month, Contract, Contract Accountant jobs in Lon...)</span>
+                <span class="method-start">11803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Chef, Birmingham, up to 25 miles, 100, 400, Per month, Temporary, Temporary Chef jobs in Birmingham)</span>
+                <span class="method-start">22189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">22189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">32049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Software Developer, London, up to 100 miles, 1000, 3000, Per week, Part Time, Part Time Software Dev...)</span>
+                <span class="method-start">32050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Civil Engineer, Manchester, up to 50 miles, 15, 30, Per hour, Apprenticeship, Apprenticeship Civil E...)</span>
+                <span class="method-start">41672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">41672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Area Manager, Portsmouth, up to 10 miles, 50, 300, Per day, Contract, Contract Area Manager jobs in ...)</span>
+                <span class="method-start">49799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">49799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Banking Team Leader, Glasgow, up to 2 miles, 20000, 40000, Per annum, Permanent, Permanent Banking T...)</span>
+                <span class="method-start">59853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">59853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67590 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
